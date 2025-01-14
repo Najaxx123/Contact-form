@@ -1,0 +1,30 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    font-family: "Karla", serif;
+}
+
+
+.email-container,
+.first-name,
+.last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.query-type-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.query-type-container {
+    text-decoration: double;
+}
+
+
+
+
+
+

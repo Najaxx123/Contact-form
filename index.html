@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Contact Us</h1>
+      <div class="full-name">
+        <div class="first-name">
+          <label for="fname">first name * </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="last-name">
+          <label for="lname">last name * </label>
+          <input id="lname" type="text" />
+        </div>
+      </div>
+      <div class="email-container">
+        <label for="email">email * </label>
+        <input type="text" id="email" />
+      </div>
+      <div class="query-type-container">
+        <div>
+          <input type="radio" id="general-enquiry" name="query-type" />
+          <label for="general-enquiry">General Enquiry</label>
+        </div>
+        <div>
+          <input type="radio" id="support-request" name="query-type" />
+          <label for="support-request">Suport Request</label>
+        </div>
+      </div>
+      <div class="message-container">
+        <label for="message">Message</label>
+        <textarea id="message" cols="30" rows="10"></textarea>
+      </div>
+    </main>
+  </body>
+</html>
